@@ -1,17 +1,13 @@
-student_name = input("Enter student name: ")
-score= int(input("Enter student score: "))
+print("Student Result Management System")
 
-if score >= 70 and score <= 100:
-    grade = "A"
-elif score >= 60:
-    grade = "B"
-elif score >= 50:
-    grade = "C"
-elif score >= 0:
-    grade = "F"
+student_name = input("Enter student name: ")
+score = int(input("Enter student score: "))
+
+if score >= 50:
+    result = "PASS"
 else:
-    grade = "Invalid score"
+    result = "FAIL"
 
 print("Student Name:", student_name)
 print("Score:", score)
-print("Grade:", grade)
+print("Result:", result)
