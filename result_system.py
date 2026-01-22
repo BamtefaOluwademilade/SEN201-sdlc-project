@@ -1,5 +1,5 @@
 student_name = input("Enter student name: ")
-score = int(input("Enter student score: "))
+score= int(input("Enter student score: "))
 
 if score >= 70 and score <= 100:
     grade = "A"
