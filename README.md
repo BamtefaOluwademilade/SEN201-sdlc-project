@@ -1,64 +1,53 @@
 # SEN201-sdlc-project
-Student Result Management System using Student Result Management System using python 
-1. Requirements Analysis
+Student Result Management System (Console-Based) 
+1. Planning
+The goal of this project is to create a simple system that stores student names and scores and displays their results. 
+The system will help manage student academic records.
+2. Requirements Analysis
 
-The Student Result Management System is designed to:
+Functional Requirements:
+	•	Accept student name
+	•	Accept student score
+	•	Display student result
+	•	Determine pass or fail
 
-Accept student name and score
+Non-Functional Requirements:
+	•	Easy to use
+	•	Runs on Python
+	•	Console-based
 
-Calculate the student’s grade
+⸻
 
-Display the student’s result
+3. System Design
 
-The system is intended for academic use to manage student results easily.
+The system will:
+	•	Use variables to store student name and score
+	•	Use conditional statements to check pass or fail
+	•	Display results on the screen
 
-2. System Design
+⸻
 
-Input:
+4. Implementation
 
-Student name
+The system will be implemented using Python programming language.
 
-Student score
+⸻
 
-Process:
+5. Testing
 
-Read input values
+The system will be tested using different scores to ensure correct output for pass and fail cases.
 
-Determine grade based on score
+⸻
 
-Output:
+6. Deployment
 
-Student name
+The program will be deployed by uploading it to a GitHub repository.
 
-Score
+⸻
 
-Grade
+7. Maintenance
 
-3. Implementation
-
-The system is implemented using Python.
-The program collects input from the user, processes the score, and displays the result.
-
-4. Testing
-
-The system was tested using:
-
-Valid scores (e.g. 75, 60)
-
-Invalid scores (e.g. below 0 or above 100)
-
-All tests produced correct results.
-
-5. Deployment
-
-The application is deployed by uploading the source code to a GitHub repository.
-
-6. Maintenance
-
-The system can be improved in the future by:
-
-Adding multiple students
-
-Saving results to a file
-
-Adding a user interface
+Future improvements may include:
+	•	Multiple students
+	•	File storage
+	•	User authentication
