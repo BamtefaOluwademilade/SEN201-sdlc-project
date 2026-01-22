@@ -1,4 +1,4 @@
-# SEN201-sdlc-project
+# SEN201-sdlc-project by BAMTEFA OLUWADEMILADE 24/13571
 Student Result Management System (Console-Based) 
 1. Planning
 The goal of this project is to create a simple system that stores student names and scores and displays their results. 
